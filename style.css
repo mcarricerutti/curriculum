@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.nombre{
+    background-color: #A3BB4F;
+    padding-left: 40%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: absolute;
+    width: 100%;
+    margin-top: 3%;
+    color: white;
+}
+
+.nivel{
+    margin-left: 8%;
+}
+
+.contInfo1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 4%;
+    background-color: #DAF7A6;
+    position: absolute;
+    z-index: 100;
+    color: rgb(172, 162, 162);
+}
+
+.img {
+    width: 45%;
+    height: 20%;
+    border-radius: 50%;
+    margin-left: 28%;
+    margin-bottom: 8%;
+}
+
+.sobreMi{
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.infoSM{
+    margin-left: 7%;
+    margin-right: 2%;
+}
+
+.contacto{
+    margin-left: 2%;
+    margin-top: 15%;
+    margin-bottom: 2%;
+}
+
+.infoCont{
+    margin-left: 7%;
+    margin-right: 2%;
+    margin-bottom: 16%;
+}
+
+.contAptitudes {
+    position: absolute;
+    z-index: 150;
+    background-color: #F0FBCB;
+    margin-top: 12%;
+    margin-left: 32%;
+    margin-right: 2%;
+    padding: 5%;
+    color: grey;
+}
+
+.titulosCarac{
+    padding: 1.5%;
+}
+
+.enlaceProyecto{
+    color: grey;
+    text-decoration: underline;
+}
